@@ -1,0 +1,223 @@
+
+/* Css Sifirlama */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,  caption, tbody, tfoot, thead, th {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; text-decoration:none;}
+
+.clear{clear:both}
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+/* remember to define focus styles! */
+:focus, a:focus, a:active{    outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins{ text-decoration: none; }
+del{ text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table{border-collapse: collapse; border-spacing: 0;}
+
+/* float uygulanan elemanlari kapsayamama sorunu */
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-block;}
+/* IE-mac de bu bolumu sakla \ */
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* IE-mac bu bolumu saklam artik */
+
+/* Css Sifirlama */
+/*font*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/openLight.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/openBold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/openNormal.woff) format('woff');
+}
+/*-------------------------------------------body-----------------------------------------------*/
+Body
+{
+	background:#f6f6f6;
+	font-size:12px;
+	font-family: 'Open Sans', sans-serif;
+	color:#676767;
+}
+
+.container{
+}
+.container .header{
+	padding:0px 0px 0px 0px;
+	border-bottom:1px solid #cde2ef;
+}
+.container .header .logo{
+	margin:10px 0px 0px 15px;
+	float:left;
+}
+
+.container .header .menu{
+	float:right;
+	width:500px;
+}
+.container .header ul{
+	float:right;
+	margin-top:40px;
+}
+.container .header ul li{
+	background:#d9e0e4;
+	float:left;
+	margin-left:15px;
+	padding:5px 10px 5px 10px;
+ 	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	cursor:pointer;
+}
+.container .header ul li:hover{
+	background-color:#bedaec;
+	
+}
+.container .topshadow{
+	margin-top:20px;
+	
+}
+
+.container .leftshadow{
+	float:left;
+	width:15px;
+}
+
+.container .rightshadow{
+	float:left;
+	width:15px;
+}
+
+.container .wrapper{
+	float:left;
+	width:600px;
+	height:471px;
+	background:#FFF;
+}
+
+.container .wrapper .blocked{
+	background-image:url(../images/trans.png);
+	height:0px;
+	width:600px;
+	position:absolute;
+}
+
+.container .wrapper .register{
+	padding:10px 5px 5px 25px;
+	margin-top:10px;
+}
+.container .wrapper .title{
+	color:#1376b6;
+
+	font-size:32px;
+	margin:20px 30px 10px 30px;
+
+}
+.container .wrapper .text{
+	margin:20px 30px 10px 30px;
+	font-size:16px;
+}
+
+.container .wrapper ul{
+	margin:80px 30px 10px 50px;
+	font-size:20px;
+}
+.container .wrapper ul li{
+	list-style:circle;
+	margin-bottom:10px;
+}
+
+.container .rightwrapper{
+	height:285px;
+	border:#cde2ef 1px solid;
+	width:268px;
+	margin-left:17px;
+	float:left;
+	padding:10px 5px 5px 25px;
+	background-color:#E4EEEF;
+}
+.container .rightwrapper .form .succes{
+	margin-top:110px;
+	font-size:16px;
+	color:#090;
+}
+
+.registerbutton{
+	background:#4D90FE;
+	border:1px solid #3079ED;
+	background-image:-moz-linear-gradient(center top , #4D90FE, #4787ED);
+	text-shadow:0 1px rgba(0, 0, 0, 0.1);
+	color:#FFF;
+	padding:15px 75px 15px 75px;
+	cursor:pointer;
+}
+.container .rightwrapper input[type='text'] {
+	height:25px;
+	width:240px;
+}
+.container .rightwrapper input[type='password'] {
+	height:25px;
+	width:240px;
+}
+.container .rightwrapper .form .button{
+	background:#4D90FE;
+	border:1px solid #3079ED;
+	background-image:-moz-linear-gradient(center top , #4D90FE, #4787ED);
+	text-shadow:0 1px rgba(0, 0, 0, 0.1);
+	color:#FFF;
+	padding:5px 30px 5px 30px;
+	cursor:pointer;
+	
+}
+.container .rightwrapper .form .button:hover{
+	background:#2c7bfe;
+}
+
+.container .header .buttons .button2{
+	background:#cd3a3d;
+	border:1px solid #ce1115;
+	background-image:-moz-linear-gradient(center top , #cd3a3d, #cd3a3d);
+	text-shadow:0 1px rgba(0, 0, 0, 0.1);
+	color:#FFF;
+	padding:5px 20px 5px 20px;
+	cursor:pointer;
+	font-size:10px;
+	
+}
+.container .header .buttons .button2:hover{
+	background:#c52125;
+}
+.container .rightwrapper .title{
+	font-size:16px;
+	margin-bottom:10px;
+}
+
+.grupBox{
+	float:left;
+	width:250px;
+}
+
+.contract{
+	margin-right:20px;
+	height:100px;
+	overflow:scroll;
+	border:1px solid #CCC;
+	overflow-x: hidden;
+	padding:5px 5px 5px 5px;
+}
+
+.contractcheck{
+	margin-top:5px;
+}

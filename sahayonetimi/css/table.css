@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+.boxMini
+{
+	width:48%;
+	
+}
+.boxMini table{
+	width:540px;
+}
+.boxMini table tr{
+	
+	border-bottom:3px solid #fafafa;
+	height:35px;
+	
+}
+.boxMini table tr td{
+	width:100px;
+	padding:5px 5px 5px 5px;
+	text-align:right;
+	border-right:3px solid #fafafa;
+	
+}
+.boxMini table tr .ac{
+	background:#efefef;
+	
+}
+.boxMini table tr .ab{
+	background:#4D90FE;
+	border:1px solid #3079ED;
+	background-image:-moz-linear-gradient(center top , #4D90FE, #4787ED);
+	text-shadow:0 1px rgba(0, 0, 0, 0.1);
+	color:#fff;
+	cursor:pointer;
+}
+.boxMini table tr .tm{
+	background:#343838;
+	color:#FFF;
+	cursor:pointer;
+}
+
+.boxBig
+{
+	margin: 20px 6px;
+	width:728px;
+}
+.boxHeader
+{
+	background:#4D90FE;
+	border:1px solid #3079ED;
+	background-image:-moz-linear-gradient(center top , #4D90FE, #4787ED);
+	text-shadow:0 1px rgba(0, 0, 0, 0.1);
+	color:#FFF;
+	height:37px;
+	font-weight:900;
+	font-size:18px;
+	line-height:35px;
+}
+.boxBig .pColumn{
+	width:400px;
+	float:left;
+	border:1px solid #EFEFEF;
+	padding:20px 20px 20px 20px;
+	margin-top:20px;
+}
+.boxBig .pColumn .titlesP{
+	font-size:14px;
+	font-weight:700;
+}
+.boxBig  .pColumn .item{
+	margin-top:10px;
+}
+.boxHeader .boxTask,.boxHeader .boxPerform,.boxHeader .boxCalendar,.boxHeader .boxCustomer,.boxHeader .boxSeach,.boxHeader .boxAddCustomer
+{
+	background:url(../images/contentIcon.png) no-repeat;
+	width:36px;
+	height:36px;
+	float:left;
+	margin-right:10px;
+}
+.boxHeader .boxCalendar
+{
+	background-position:-74px -1px;
+}
+.boxHeader .boxPerform
+{
+	background-position:-37px -1px;
+}
+.boxMini li
+{
+	background:#f6f6f6;
+	height:37px;
+	line-height:35px;
+	padding-left:5px;
+	margin:2px 0px;
+}
+.boxMini .dark
+{
+	background:#efefef;
+}
+.taskList .complete,.taskList .delete,.addItem
+{
+	background:url(../image/taskIcon.png) no-repeat;
+		margin-right:3px;
+}
+.addItem
+{
+	background-position: 0px -71px;
+	width:26px;
+	height:36px;
+	float:right;
+	display:block;
+	text-indent:-99999px;
+ 
+}
+.addItem:hover
+{
+	opacity:.6;
+}
+.taskList .delete
+{
+width: 14px;
+
+height: 27px;
+float: right;
+margin-top:10px;
+background:url(../images/view.png) no-repeat;
+
+}
+.taskList .complete
+{
+width: 14px;
+margin-right:10px;
+height: 37px;
+float: right;
+display: block;
+opacity:.5;
+background-position: -3px 13px;
+}
+.taskList .complete:hover,.taskList .delete:hover,.active .complete
+{
+	opacity:1;
+}
+.active
+{
+	text-decoration:line-through;
+}
+.boxMini .dayName li
+{
+	float:left;
+	background:none;
+	width:46px;
+	color:#fa6b00;
+	margin:0px;
+	text-align:center;
+	height:25px;
+}
+.calendarDay li
+{
+	float: left;
+	width:39px;
+	height: 35px;
+	font-weight: 700;
+	margin: 1px;
+	text-align: right;
+	color:#818181;
+	line-height: 12px;
+	padding-right: 5px;
+	padding-top: 5px;
+ 
+}
+.calendarDay li.today
+{
+	color:#f9f9f9;
+	background:#343838;
+}
+.calendarDay li.meeting 
+{
+	color:#f9f9f9;	
+	background:#fa6b00;
+}
+.calendarDay li.meeting a
+{
+	color:#f9f9f9;	
+	background:#fa6b00;
+	width:39px;
+	height: 34px;	
+	display:block;
+}
+
+@media screen and (min-width:970px)
+{
+		
+	.boxMini
+	{
+		width: 48%;
+		margin-right:2%;
+		float:left;
+	}
+	.boxBig
+	{
+	margin: 20px 1%;
+	width: 98%;
+	}
+	.calendarDay li
+	{
+width: 11.3%;
+margin: 0.2%;
+	}
+	.boxMini .dayName li
+	{
+		width: 14%;
+		margin: 0px;
+		padding: 0px;
+	}
+	.calendarDay li.meeting a
+	{
+		width:auto;
+	}
+}

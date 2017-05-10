@@ -1,0 +1,32 @@
+.header{
+	width:400px;
+	padding:10px 10px 10px 10px;
+	border:1px dashed #666;
+	float:left;
+}
+.logo{
+	float:right;
+}
+.header .item{
+	margin-bottom:5px;
+}
+
+.header .item table{
+	width:100%;
+}
+
+.clear{
+	clear:both;
+}
+
+.products{
+	margin-top:20px;
+}
+
+.products .tr{
+	background-color:#666;
+}
+
+.products .tr2{
+	background-color:#EFEFEF;
+}
